@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* HEADER */
+
 header{
     width: 80%;
     margin: auto;
@@ -52,6 +54,8 @@ section{
     align-items: center;
 }
 
+/* MAIN */
+
 .container{
     background-color: rgba(254, 204, 55, 0.887);
     width: 80%;
@@ -94,6 +98,7 @@ section{
     margin: 2rem;
 }
 
+/* FOOTER */
 
 footer{
     background-color: blue;
@@ -122,7 +127,23 @@ footer>div{
     height: 60%;
 }
 
-/* utility */
+.final_row{
+    background-color: rgb(188, 134, 93);
+    height: 50px;
+    width: 100%;
+    margin-top: -75px;
+    justify-content: space-between;
+}
+
+.final_element{
+    width: 15%;
+    background-color: rgb(255, 223, 64);
+    height: 40px;
+    border: 2px dotted rgb(148, 130, 36);
+    align-self: center;
+}
+
+/* UTILITY */
 
 .flex_container{
     display: flex;
