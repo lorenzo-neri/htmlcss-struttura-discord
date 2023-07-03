@@ -30,9 +30,12 @@ header>nav{
     width: 20%;
 }
 
-main>section{
+section{
     height: 500px;
     width: 100%;
+}
+
+.hero{
     background-color: rgba(88, 88, 238, 0.759);
 }
 
@@ -43,6 +46,40 @@ main>section{
     margin: auto;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    background-color: rgba(254, 204, 55, 0.887);
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.row{
+    background-color: rgb(164, 76, 9);
+    height: 350px;
+    width: 100%;
+    align-self: center;
+}
+
+.col{
+    background-color: rgb(55, 186, 55);
+    height: 80%;
+    align-self: center;
+}
+
+.large{
+    width: 60%;
+}
+
+.small{
+    width: 40%;
+}
+
+.card{
+    background-color: lightblue;
+    width: 100%;
+    margin: 2rem;
 }
 
 /* utility */
