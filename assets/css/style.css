@@ -35,6 +35,10 @@ section{
     width: 100%;
 }
 
+.xl{
+    height: 900px;
+}
+
 .hero{
     background-color: rgba(88, 88, 238, 0.759);
 }
@@ -55,11 +59,19 @@ section{
     margin: auto;
 }
 
+.container_large{
+    background-color: rgba(254, 204, 55, 0.887);
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+
 .row{
     background-color: rgb(164, 76, 9);
     height: 350px;
     width: 100%;
     align-self: center;
+    justify-content: space-between;
 }
 
 .col{
@@ -80,6 +92,34 @@ section{
     background-color: lightblue;
     width: 100%;
     margin: 2rem;
+}
+
+
+footer{
+    background-color: blue;
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+}
+
+footer>div{
+    height: 500px;
+}
+
+.col_f{
+    background-color: rgb(55, 186, 55);
+    height: 80%;
+    align-self: center;
+}
+
+.l{
+    width: 28%;
+    height: 60%;
+}
+
+.s{
+    width: 16%;
+    height: 60%;
 }
 
 /* utility */
